@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>twigkit</groupId>
     <artifactId>fig-jsp</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
     <packaging>jar</packaging>
     <name>fig-jsp</name>
     <description>JSP tag library for the Fig.</description>
@@ -155,7 +155,7 @@
         <dependency>
             <groupId>twigkit</groupId>
             <artifactId>fig</artifactId>
-            <version>1.0</version>
+            <version>1.1</version>
         </dependency>
 
         <dependency>
