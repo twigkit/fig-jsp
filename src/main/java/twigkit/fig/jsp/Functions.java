@@ -22,6 +22,7 @@ public class Functions {
 		for (Value v : conf.values()) {
 			System.out.println(v.label() + " " + v.as_string());
 		}
+		System.out.println("==> " + conf.value(name));
 		return conf.value(name);
 	}
 }
