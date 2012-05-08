@@ -23,7 +23,7 @@ public class Functions {
 			System.out.println(v.label() + " " + v.as_string());
 		}
 		System.out.println("==> " + conf.value(name));
-        
+
 		return conf.value(name);
 	}
 }
