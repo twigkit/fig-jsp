@@ -21,7 +21,9 @@ public class ConfigTag extends SimpleTagSupport {
 		if (var == null) {
 			var = name;
 		}
-		getJspContext().setAttribute(var, fig.get(name.split("_")).map());
+        if (fig != null) {
+            getJspContext().setAttribute(var, fig.get(name.split("\\.")).map());
+        }
 	}
 
 	public void setVar(String var) {
